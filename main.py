@@ -30,4 +30,4 @@ print("Displaying plot...")
 plotter.show()
 
 
-print(f"Mesh generation time: {start_time - end_time}")
+print(f"Mesh generation time: {end_time - start_time}")
