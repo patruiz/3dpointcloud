@@ -3,7 +3,7 @@ import open3d as o3d
 from io import StringIO
 
 # Define the file path
-file_path = 'A_Hedge_02SEP2022.asc'
+file_path = 'PointCloudNest.asc'
 
 # Load the point cloud data from the file
 ascii_grid = pd.read_csv(file_path, skiprows=6, delimiter=',', header=None)
